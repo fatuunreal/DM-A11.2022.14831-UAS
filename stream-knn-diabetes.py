@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 diabetes_model = pickle.load(open('knn_diabetes_model.sav', 'rb'))
 
 # Judul aplikasi
-st.write('FATU RAHMAT A11.2022.14831 DM-4504')
+st.write("FATU RAHMAT A11.2022.14831 DM-4504")
 st.title('Prediksi Diabetes Dengan KNN')
 
 # Membagi kolom untuk input
